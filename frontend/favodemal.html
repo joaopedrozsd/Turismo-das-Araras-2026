@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html lang="pt-BR">
+
+<head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="theme-color" content="#3bb371">
+
+<title>Estância Favo de Mel | Turismo das Araras</title>
+
+<link rel="manifest" href="manifest.webmanifest"> <link rel="icon" href="icone.svg" type="image/svg+xml"> <link rel="stylesheet" href="css/style.css">
+
+<style> .destination-image { width: 100%; height: 350px; margin: 25px 0; border-radius: 18px; overflow: hidden; } .destination-image img { width: 100%; height: 100%; object-fit: cover; display: block; cursor: zoom-in; transition: transform .4s ease; } .destination-image img:hover { transform: scale(1.03); } .image-modal { display: none; position: fixed; inset: 0; z-index: 99999; background: rgba(0,0,0,.95); align-items: center; justify-content: center; padding: 20px; } .image-modal.active { display: flex; } .image-modal img { max-width: 95%; max-height: 90vh; object-fit: contain; border-radius: 12px; } .close-modal { position: absolute; top: 15px; right: 25px; color: white; font-size: 40px; background: none; border: none; cursor: pointer; } @media(max-width:600px) { .destination-image { height: 230px; } } </style>
+<link rel="stylesheet" href="css/theme.css">
+<script src="js/theme.js"></script>
+<script src="js/i18n.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+
+<a class="brand" href="index.html"> <img class="brand-mark" src="icone.svg" alt="Turismo das Araras"> <span>Turismo das Araras<small>Barra do Garças • MT</small></span> </a>
+
+<button class="menu-button" id="menuButton" aria-label="Abrir menu" aria-expanded="false">☰</button>
+
+<nav class="nav" id="mainNav"> <a href="index.html">Início</a> <a href="destinos.html">Pontos turísticos</a> <a href="sobre.html">Sobre</a> <a href="noticias.html">Notícias</a> <a href="contato.html">Contato</a> <a class="nav-account" href="login.html">Entrar</a> </nav>
+
+</header>
+
+<main>
+
+<section class="detail-hero">
+
+<a class="back-link" href="destinos.html">← Voltar aos destinos</a>
+
+<span class="eyebrow light">LAZER</span>
+
+<h1>Estância Favo de Mel</h1>
+
+<p>Conheça um pouco mais sobre este atrativo de Barra do Garças e região.</p>
+
+</section>
+
+<section class="section detail-section">
+
+<article class="detail-copy">
+
+<span class="eyebrow">SOBRE O DESTINO</span>
+
+<h2>Conheça o lugar</h2>
+
+<!-- IMAGEM DA ESTÂNCIA -->
+
+<div class="destination-image"> <img src="img/favodemel.jpg" alt="Estância Favo de Mel em Barra do Garças" id="destinationPhoto" > </div>
+
+<p>A Estância Favo de Mel configura-se como um dos complexos de lazer e hotelaria rural mais charmosos e acolhedores das proximidades de Barra do Garças, unindo o conforto moderno à simplicidade do campo. Idealizada para receber famílias, casais e grupos de amigos, a estância destaca-se como um refúgio perfeito para quem deseja vivenciar a autêntica rotina do interior mato-grossense sem abrir mão de serviços de alta qualidade. Ocupando uma vasta área verde, a propriedade foi planejada para integrar harmoniosamente suas estruturas de hospedagem e lazer com a paisagem natural do Cerrado, preservando árvores nativas e cursos d’água. A sensação de bem-estar é imediata ao cruzar os portões da estância, onde o aroma de terra molhada e o cantar dos galos substituem o barulho do tráfego urbano. A infraestrutura de lazer da Estância Favo de Mel é robusta e diversificada, contando com piscinas de águas límpidas, toboáguas para a diversão das crianças e áreas de solário para relaxamento. Os hóspedes podem passar o dia alternando entre mergulhos refrescantes e momentos de leitura sob as sombras de generosos quiosques de palha espalhados pelo gramado. A gastronomia é, sem dúvida, um dos pilares de maior sucesso do local, oferecendo aos visitantes o melhor da culinária típica da região Centro-Oeste, preparada no tradicional fogão a lenha. Os pratos, que utilizam ingredientes frescos colhidos na própria estância ou adquiridos de pequenos produtores locais, trazem sabores marcantes que remetem à comida afetiva de fazenda.</p>
+
+<p>Para os amantes de atividades ao ar livre, a Favo de Mel oferece opções que vão desde cavalgadas guiadas por trilhas internas até pescarias recreativas em lagos bem cuidados e povoados por espécies nativas. Essas atividades permitem uma interação direta com os animais da fazenda, sendo uma experiência educativa e inesquecível, especialmente para as crianças criadas em grandes centros urbanos. As acomodações da estância foram projetadas com uma arquitetura rústica, porém equipadas com comodidades contemporâneas, como ar-condicionado, camas confortáveis e varandas privativas com redes para descanso. Despertar com a luz suave do sol invadindo o quarto e o som da brisa balançando as árvores é um privilégio padrão para quem escolhe se hospedar no local. O turismo de eventos também encontra na Estância Favo de Mel um espaço ideal, com estruturas preparadas para sediar desde casamentos rústicos e aniversários até convenções corporativas de imersão. A combinação de paisagens fotogênicas com um serviço de buffet personalizado garante o sucesso de celebrações que buscam um toque de exclusividade e conexão com a natureza.</p>
+
+<p>A preocupação com a sustentabilidade é visível nas práticas diárias da estância, que adota sistemas de reciclagem de resíduos sólidos, compostagem de matéria orgânica e uso consciente dos recursos hídricos. Essas ações não apenas reduzem o impacto ambiental do empreendimento, mas também servem de exemplo inspirador para os turistas que frequentam o espaço. ADurante as noites na estância, a ausência de poluição luminosa severa permite a contemplação de um céu estrelado incrivelmente nítido, muitas vezes acompanhado por rodas de viola ao redor de fogueiras. Esse ambiente nostálgico e acolhedor fomenta a socialização entre os hóspedes, que compartilham histórias e experiências sob o luar de Mato Grosso. AOs funcionários da Favo de Mel são frequentemente elogiados pela hospitalidade calorosa, característica marcante do povo da região, fazendo com que cada visitante se sinta verdadeiramente em casa. O atendimento personalizado busca entender as preferências de cada hóspede, sugerindo os melhores horários para atividades e passeios pela região de Barra do Garças. AA estância atua também como uma base estratégica de apoio para turistas que desejam explorar outras atrações da cidade, como as cachoeiras da serra ou o místico Rio Araguaia, retornando ao fim do dia. Essa conveniência de localização alia a aventura dos passeios externos ao conforto e segurança de um pouso tranquilo no fechamento do circuito diário. AEm suma, a Estância Favo de Mel transcende o conceito de simples hospedagem, consolidando-se como uma experiência completa de reconexão com as raízes rurais e com o ritmo desacelerado da natureza. É o destino obrigatório para quem busca restabelecer energias, saborear a boa comida e construir memórias afetivas duradouras em um dos cenários mais acolhedores de Mato Grosso.</p>
+
+<div class="notice"> <b>Antes de visitar</b> <p>As condições de acesso, funcionamento, valores e regras podem mudar. Confirme as informações com responsáveis ou órgãos locais antes de realizar o passeio.</p> </div>
+
+<a class="button button-blue" href="destinos.html"> Ver outros destinos <span>→</span> </a>
+
+</article>
+
+<aside class="detail-aside">
+
+<span class="aside-number">TA / 11</span>
+
+<h3>Turismo consciente</h3>
+
+<p>Respeite as orientações do local, preserve a natureza e mantenha os espaços limpos para os próximos visitantes.</p>
+
+<a href="contato.html">Fale com o projeto →</a>
+
+</aside>
+
+</section>
+
+</main>
+
+<footer class="footer">
+
+<div class="footer-brand"> <img class="brand-mark" src="icone.svg" alt="Turismo das Araras"> <span> <b>Turismo das Araras</b> <small>Barra do Garças • MT</small> </span> </div>
+
+<p>Conhecer, valorizar e preservar.</p>
+
+<div class="footer-links"> <a href="sobre.html">Sobre o projeto</a> <a href="destinos.html">Destinos</a> <a href="contato.html">Contato</a> </div>
+
+<small class="copyright"> Projeto educacional • Consulte fontes locais para confirmar horários, valores e condições de visita. </small>
+
+</footer>
+
+<!-- MODAL PARA AMPLIAR A FOTO -->
+
+<div class="image-modal" id="imageModal">
+
+<button class="close-modal" id="closeModal">×</button>
+
+<img id="expandedImage" src="" alt="Estância Favo de Mel ampliada">
+
+</div>
+
+<script src="js/app.js"></script>
+
+<script> // AMPLIAR IMAGEM AO CLICAR const destinationPhoto = document.getElementById("destinationPhoto"); const imageModal = document.getElementById("imageModal"); const expandedImage = document.getElementById("expandedImage"); const closeModal = document.getElementById("closeModal"); destinationPhoto.addEventListener("click", function() { expandedImage.src = destinationPhoto.src; imageModal.classList.add("active"); }); // FECHAR IMAGEM closeModal.addEventListener("click", function() { imageModal.classList.remove("active"); }); imageModal.addEventListener("click", function(event) { if (event.target === imageModal) { imageModal.classList.remove("active"); } }); document.addEventListener("keydown", function(event) { if (event.key === "Escape") { imageModal.classList.remove("active"); } }); </script>
+
+</body> </html>

@@ -1,0 +1,31 @@
+{
+  "name": "Turismo das Araras",
+  "short_name": "Turismo das Araras",
+  "description": "Descubra cachoeiras, rios, serras e atrativos de Barra do Garças e do Vale do Araguaia.",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffee",
+  "theme_color": "#3bb371",
+  "icons": [
+    {
+      "src": "icone-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icone-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icone.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

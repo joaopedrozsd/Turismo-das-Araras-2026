@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Turismo das Araras">
+  <rect width="512" height="512" rx="112" fill="#004aad"/>
+  <circle cx="378" cy="132" r="42" fill="#3bb371"/>
+  <path d="M120 350c28-96 92-160 172-160-6 52-32 96-74 124-27 18-58 30-98 36z" fill="#ffffee"/>
+  <path d="M120 350c62-26 116-70 154-132" fill="none" stroke="#3bb371" stroke-width="18" stroke-linecap="round"/>
+  <text x="256" y="446" text-anchor="middle" font-family="Arial, sans-serif" font-size="76" font-weight="700" fill="#ffffee">TA</text>
+</svg>

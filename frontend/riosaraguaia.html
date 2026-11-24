@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="pt-BR"> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta name="theme-color" content="#3bb371"> <title>Praias do Rio Araguaia | Turismo das Araras</title> <link rel="manifest" href="manifest.webmanifest"> <link rel="icon" href="icone.svg" type="image/svg+xml"> <link rel="stylesheet" href="css/style.css">
+
+<style> /* Galeria de imagens */ .destination-gallery { width: 100%; margin: 30px 0; } .gallery-main { position: relative; width: 100%; height: 420px; overflow: hidden; border-radius: 16px; cursor: pointer; } .gallery-main img { width: 100%; height: 100%; object-fit: cover; display: block; transition: opacity 0.8s ease; } .gallery-caption { position: absolute; bottom: 0; left: 0; width: 100%; padding: 20px; color: white; background: linear-gradient(transparent, rgba(0,0,0,0.65)); font-size: 14px; } .gallery-counter { position: absolute; top: 15px; right: 15px; background: rgba(0,0,0,0.6); color: white; padding: 8px 14px; border-radius: 20px; font-size: 13px; } @media(max-width:600px) { .gallery-main { height: 260px; } } /* Imagem ampliada */ .image-modal { display: none; position: fixed; z-index: 9999; inset: 0; background: rgba(0,0,0,0.92); align-items: center; justify-content: center; padding: 20px; } .image-modal img { max-width: 95%; max-height: 90vh; object-fit: contain; border-radius: 10px; } .image-modal.active { display: flex; } .modal-close { position: absolute; top: 20px; right: 30px; color: white; font-size: 38px; cursor: pointer; background: none; border: none; } </style>
+<link rel="stylesheet" href="css/theme.css">
+<script src="js/theme.js"></script>
+<script src="js/i18n.js"></script>
+</head>
+
+<body>
+
+<header class="site-header"> <a class="brand" href="index.html"> <img class="brand-mark" src="icone.svg" alt="Turismo das Araras"> <span>Turismo das Araras<small>Barra do Garças • MT</small></span> </a>
+
+<button class="menu-button" id="menuButton" aria-label="Abrir menu" aria-expanded="false">☰</button>
+
+<nav class="nav" id="mainNav"> <a href="index.html">Início</a> <a href="destinos.html">Pontos turísticos</a> <a href="sobre.html">Sobre</a> <a href="noticias.html">Notícias</a> <a href="contato.html">Contato</a> <a class="nav-account" href="login.html">Entrar</a> </nav> </header>
+
+<main>
+
+<section class="detail-hero"> <a class="back-link" href="destinos.html">← Voltar aos destinos</a> <span class="eyebrow light">NATUREZA · LAZER</span> <h1>Praias do Rio Araguaia</h1> <p>Conheça um pouco mais sobre este atrativo de Barra do Garças e região.</p> </section>
+
+<section class="section detail-section">
+
+<article class="detail-copy">
+
+<span class="eyebrow">SOBRE O DESTINO</span>
+
+<h2>Conheça o lugar</h2>
+
+<!-- GALERIA AUTOMÁTICA -->
+
+<div class="destination-gallery"> <div class="gallery-main" id="galleryMain"> <img id="galleryImage" src="img/praiasrioaraguaia.jpg" alt="Praias do Rio Araguaia" onclick="openImage()"> <span class="gallery-counter" id="galleryCounter">1 / 1</span> <div class="gallery-caption">Praias do Rio Araguaia — Barra do Garças</div> </div> </div>
+
+<p>As Praias do Rio Araguaia representam o ápice do turismo de veraneio na região de Barra do Garças, transformando a paisagem do município durante os meses de seca da bacia hidrográfica. Quando as águas do imponente rio baixam, revelam-se extensos bancos de areia branca e fina, que se transformam em verdadeiros resorts naturais ao ar livre, atraindo milhares de turistas de todo o país. A temporada de praias, que ocorre geralmente entre os meses de junho e agosto, movimenta intensamente a economia local, impulsionando hotéis, restaurantes e o setor de serviços de Barra do Garças. Estruturas temporárias de alto padrão, incluindo palcos para shows, barracas de alimentação e postos de salvamento, são montadas na areia para garantir o conforto e a segurança dos banhistas. As águas do Rio Araguaia nesse período do ano apresentam-se mornas, calmas e ideais para o banho de toda a família, funcionando como um mar de água doce no coração do Brasil. A largueza do rio proporciona um horizonte amplo, onde o pôr do sol se reflete no espelho d'água de forma espetacular, criando um dos cenários fotográficos mais famosos do país. A prática de esportes náuticos ganha enorme força durante a temporada, com o rio sendo cortado por motos aquáticas, lanchas, caiaques e pranchas de Stand Up Paddle. Além disso, as areias das praias tornam-se arenas improvisadas para campeonatos de futevôlei, vôlei de praia e peteca, mantendo os jovens e adultos ativos durante todo o dia.</p>
+
+<p>O acampamento nas praias do Araguaia é uma tradição cultural enraizada, com famílias inteiras montando verdadeiras vilas de barracas dotadas de geradores, cozinhas comunitárias e áreas de convivência. Essa vivência comunitária na areia, sob a sombra de tendas e ao som de música caipira ou modas de viola, define o espírito festivo do veraneio goiano e mato-grossense. A gastronomia das barracas de praia é rica em peixes nativos do Araguaia, como o tucunaré, o pintado e a cachara, servidos fritos em postas ou na tradicional caldeirada. Saborear um peixe fresco acompanhado de uma bebida gelada, com os pés imersos na água doce do rio, é uma das experiências sensoriais mais valorizadas por quem frequenta a região. A sustentabilidade ambiental durante a temporada de praias é um desafio constante gerido com rigor pelas autoridades municipais e estaduais de meio ambiente. Campanhas intensas de recolhimento de lixo e conscientização ecológica são realizadas diariamente, garantindo que as areias permaneçam limpas e que a fauna aquática não seja prejudicada pelos resíduos dos turistas. O Rio Araguaia também é famoso mundialmente pela pesca esportiva, atraindo pescadores que buscam fisgar grandes exemplares de piraíbas e pirararas na modalidade de pesque e solte. As praias servem como pontos de partida e abastecimento para os barcos dos pescadores, que passam o dia explorando os poços mais profundos do rio atrás dos gigantes aquáticos.</p>
+
+<p>A segurança dos banhistas é uma prioridade absoluta, com equipes do Corpo de Bombeiros monitorando constantemente as áreas de banho demarcadas para evitar afogamentos e acidentes com embarcações. Os turistas são orientados a respeitar as correntezas naturais do rio e a evitar áreas profundas não sinalizadas, garantindo uma estadia sem intercorrências negativas. À noite, o clima nas praias do Araguaia se transforma, com as barracas iluminadas por luzes coloridas e o som de shows ao vivo agitando o público jovem na beira do rio. É o momento em que a brisa do rio refresca o calor do dia e as pessoas se reúnem para socializar, dançar e saborear petiscos sob o céu estrelado do interior do Brasil. O turismo acessível tem ganhado espaço nas praias do Araguaia, com a implementação de passarelas de madeira que facilitam o deslocamento de cadeirantes e carrinhos de bebê até a proximidade da água. Essas iniciativas buscam democratizar o acesso à beleza do rio, garantindo que todos, independentemente da mobilidade, possam desfrutar do veraneio. Em conclusão, as Praias do Rio Araguaia são o coração pulsante do verão em Barra do Garças, representando uma celebração da vida, da música e da beleza hídrica brasileira. Visitar essas praias é submergir em uma cultura de hospitalidade calorosa, onde a grandiosidade do rio abraça o visitante e deixa uma vontade permanente de retornar a cada nova temporada.</p>
+
+<div class="notice"> <b>Antes de visitar</b> <p>As condições de acesso, funcionamento, valores e regras podem mudar. Confirme as informações com responsáveis ou órgãos locais antes de realizar o passeio.</p> </div>
+
+<a class="button button-blue" href="destinos.html">Ver outros destinos <span>→</span></a>
+
+</article>
+
+<aside class="detail-aside"> <span class="aside-number">TA / 13</span> <h3>Turismo consciente</h3> <p>Respeite as orientações do local, preserve a natureza e mantenha os espaços limpos para os próximos visitantes.</p> <a href="contato.html">Fale com o projeto →</a> </aside>
+
+</section> </main>
+
+<footer class="footer"> <div class="footer-brand"> <img class="brand-mark" src="icone.svg" alt="Turismo das Araras"> <span><b>Turismo das Araras</b><small>Barra do Garças • MT</small></span> </div> <p>Conhecer, valorizar e preservar.</p> <div class="footer-links"> <a href="sobre.html">Sobre o projeto</a> <a href="destinos.html">Destinos</a> <a href="contato.html">Contato</a> </div> <small class="copyright">Projeto educacional • Consulte fontes locais para confirmar horários, valores e condições de visita.</small> </footer>
+
+<!-- MODAL DE AMPLIAÇÃO -->
+
+<div class="image-modal" id="imageModal" onclick="closeImage()"> <button class="modal-close" aria-label="Fechar imagem">&times;</button> <img id="modalImage" src="" alt="Imagem ampliada"> </div>
+
+<script src="js/app.js"></script>
+
+<script> // Ampliação da imagem function openImage() { const imagem = document.getElementById("galleryImage"); document.getElementById("modalImage").src = imagem.src; document.getElementById("imageModal").classList.add("active"); } function closeImage() { document.getElementById("imageModal").classList.remove("active"); } // Fechar com ESC document.addEventListener("keydown", function(event) { if (event.key === "Escape") closeImage(); }); </script>
+
+</body> </html>
