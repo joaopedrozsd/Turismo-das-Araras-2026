@@ -1,7 +1,0 @@
-  - name: Preparar site
-    uses: actions/upload-pages-artifact@v3
-    with:
-      path: ./frontend
-
-  - name: Publicar site
-    uses: actions/deploy-pages@v4
