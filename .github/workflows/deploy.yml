@@ -1,11 +1,7 @@
-  - name: Configurar GitHub Pages
-    uses: actions/configure-pages@v5
-
-  - name: Preparar arquivos do site
+  - name: Preparar site
     uses: actions/upload-pages-artifact@v3
     with:
-      path: frontend
+      path: ./frontend
 
   - name: Publicar site
     uses: actions/deploy-pages@v4
-
